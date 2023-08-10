@@ -73,3 +73,6 @@ class Teacher extends person{
         console.log('zzzzzzzz');
     }
 }
+
+//Encapsulation:
+// For private attributes just use #attribute_name instead of #attribute
