@@ -5,10 +5,12 @@ let iterators = Array1.entries()// Generates an iterator object(array in a basic
 //Properties of Arrays are attributes/meathods of the
 
 console.log(Array1.length)
-console.log(Array1.at(3))          //This return the element stored at the given index
+console.log(Array1[0])          //This return the element stored at the given index
 console.log(Array3)
+
+console.log("Start iterating")
 for([index, val] of iterators){
-    console.log(iterators.next().value);
+    console.log(`Value at index: ${index} is ${val}`);
 }
 
-console.log()
+console.log("End iterating")
