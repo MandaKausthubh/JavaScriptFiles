@@ -14,3 +14,14 @@ for([index, val] of iterators){
 }
 
 console.log("End iterating")
+
+Array1.pop()
+console.log(Array1,'After using pop()')
+
+Array1.push([4,5])
+console.log(Array1, 'After using push()')
+
+
+let filtered_Array = Array1.filter((Array1) => (Array1) === 1);
+console.log(filtered_Array, 'After using the filter method')
+
