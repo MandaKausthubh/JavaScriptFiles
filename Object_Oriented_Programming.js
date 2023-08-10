@@ -75,4 +75,4 @@ class Teacher extends person{
 }
 
 //Encapsulation:
-// For private attributes just use #attribute_name instead of #attribute
+// For private attributes just use #attribute_name instead of #attribute same for #meathod_name
