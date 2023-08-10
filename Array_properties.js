@@ -22,6 +22,6 @@ Array1.push([4,5])
 console.log(Array1, 'After using push()')
 
 
-let filtered_Array = Array1.filter((Array1) => (Array1) === 1);
+let filtered_Array = Array1.filter((Array1) => typeof(Array1) == `number`);
 console.log(filtered_Array, 'After using the filter method')
 
